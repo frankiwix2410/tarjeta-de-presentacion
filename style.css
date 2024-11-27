@@ -1,0 +1,32 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: lightgray;
+}
+
+
+.card{
+    background-color: white;
+    border: 1px solid white;
+    padding: 15px;
+    margin: 1px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.boton{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 0cap;
+    padding: 10px;
+  
+}
+
+.boton:hover{
+    background-color: rgba(66, 66, 239, 0.837);
+}
